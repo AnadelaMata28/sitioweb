@@ -188,6 +188,20 @@ nav ul li ul li a:hover{
     padding-left: 3vw;
 }
 
+
+.contenidos h3{
+    text-transform: uppercase;
+    padding-left: 3vw;
+}
+
+.contenidos ul{
+    padding-left: 6vw;
+}
+
+.imghtml{
+    height: 20vw;
+}
+
 .float-l {
     float: left;
 }
