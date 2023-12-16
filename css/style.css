@@ -193,7 +193,7 @@ nav ul li ul li a:hover{
 }
 
 #formcontacto{
-    margin: 4em; /*centrar con %*/
+    margin-left: 35%; 
 }
 
 #formcontacto label{
@@ -209,7 +209,7 @@ nav ul li ul li a:hover{
     background-color: #96CEF2;
     border-radius: 0.3em;
     margin: 0.5em;
-    padding: 0.5em;
+    padding: 1em;
     border: none;
     font-family: inherit;
     color: white;
@@ -262,13 +262,15 @@ input{
     margin: 1em 2em 0em 0em;
 }
 
-.imgsobremi{
-    margin: 2em 0em 2em 0em;
+.imggeneral{
+    margin: 2em 2em 2em 0em;
+    display: flex;
+    justify-content: center;
 }
 
-.imgsobremi img{
-    border:2px solid #96CEF2;
-    margin-left: 3em;
+.imggeneral img{
+    border:3px solid #96CEF2;
+    margin: 0em 1em 2em 3em;
 }
 .red{
     padding-left: 8vw;
@@ -315,5 +317,12 @@ input{
 }
 
 .w30{
+    width: 30vw;
+}
+.w35{
     width: 35vw;
+}
+
+.w45{
+    width: 45vw;
 }
