@@ -256,6 +256,24 @@ input{
     padding-left: 6px;
 }
 
+.imgredes{
+    height: 2em;
+    width: 2em;
+    margin: 1em 2em 0em 0em;
+}
+
+.imgsobremi{
+    margin: 2em 0em 2em 0em;
+}
+
+.imgsobremi img{
+    border:2px solid #96CEF2;
+    margin-left: 3em;
+}
+.red{
+    padding-left: 8vw;
+}
+
 
 
 
@@ -294,4 +312,8 @@ input{
 
 .w25 {
     width: 25vw;
+}
+
+.w30{
+    width: 35vw;
 }
