@@ -1,65 +1,69 @@
 <!DOCTYPE html>
 <html Lang=es>
-    <head>
-        <meta charset="UTF-8">
-        <title>Página de contacto</title>
-        <link href="../css/style.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-        <header>
-            <div class="cabecera">
-                <h1>La página de Ana</h1>
-            </div>
-            <div class = "menu">
-                <div class="menu_options">
-                    <nav>
-                        <ul>
-                            <li><a href="../index.html">Inicio</a></li>
-                            <li><a href="Pagina sobre mi.html">Sobre mi</a></li>
-                            <li><a href="Tema de la pagina.html">Tema</a></li>
-                            <li><a href="Pagina Red.html">Red</a></li>
-                            <li><a href="Pagina FII.html">FII</a>
-                                <ul>
-                                    <li><a href="Detalle de FII.html">Detalles FII</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="Pagina de contacto.html" id="selected">Contacto</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-        </header>
 
-        <div class="pagina">
-            <div class="titulos">
-                <h2>Contáctame</h2>
-            </div>
-             
-            <div class="formulario">
-                <form action="Pagina de contacto.html" method="get">
-                    <div>
-                        <label for="nombre" class="w15">Nombre:</label>
-                        <input type="text" id="nombre" name="user_nombre"/>
-                    </div>
-                    
-                    <label for="apellido">Apellidos:</label>
-                    <input type="text" id="apellido" name="user_apellido"/>
-                    <br><br>
-                    <label for="tlf">Teléfono:</label>
-                    <input id="tlf" name="user_tlf"/>
-                    <br><br>
-                    <label for="msg" class="w15">Email:</label>
-                    <textarea id="msg" name="user_message"></textarea>
-                    <br><br>
-                    <label for="motivo">Motivo:</label>
-                    <textarea id="motivo" name="user_motive"></textarea>
-                    <br><br>
-                    <button type="submit" style="background-color: #96CEF2; border: #96CEF2; font-family: inherit; padding: 1vh 2vw 1vh 2vw; text-align: center; font-size: 15px;">Enviar</button>
-                </form>
-                <p></p>
+<head>
+    <meta charset="UTF-8">
+    <title>Página de contacto</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class="cabecera">
+            <h1>La página de Ana</h1>
+        </div>
+        <div class="menu">
+            <div class="menu_options">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="Pagina sobre mi.html">Sobre mi</a></li>
+                        <li><a href="Tema de la pagina.html">Tema</a></li>
+                        <li><a href="Pagina Red.html">Red</a></li>
+                        <li><a href="Pagina FII.html">FII</a>
+                            <ul>
+                                <li><a href="Detalle de FII.html">Detalles FII</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="Pagina de contacto.html" id="selected">Contacto</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
-    </body>
+    </header>
+
+    <div class="pagina">
+        <div class="titulos">
+            <h2 class="txtC">Contáctame</h2>
+        </div>
+
+        <form action="Pagina de contacto.html" method="get" id="formcontacto">
+            <div>
+                <label for="nombre" class="w10">Nombre:</label>
+                <input type="text" id="nombre" name="user_nombre" size="30" required/>
+            </div>
+            <div>
+                <label for="apellido" class="w10">Apellidos:</label>
+                <input type="text" id="apellido" name="user_apellido" size="45" required/>
+            </div>
+            <div>
+                <label for="tlf" class="w10">Teléfono:</label>
+                <input type="tel" id="tlf" name="user_tlf" size="20"/>
+            </div>
+            <div>
+                <label for="email" class="w10">Email:</label>
+                <input type="email" id="email" name="user_email" size="35"></textarea>
+            </div>
+            <div>
+                <label for="motivo" class="w10">Motivo:</label>
+                <textarea id="motivo" name="user_motive" class="w25"></textarea>
+            </div>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+        <p></p>
+    </div>
+</body>
+
 </html>
 <!--background-color: #96CEF2;
 font-family: inherit;
