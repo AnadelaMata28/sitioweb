@@ -208,12 +208,13 @@ nav ul li ul li a:hover{
 .btn{
     background-color: #96CEF2;
     border-radius: 0.3em;
-    margin: 0.5em;
-    padding: 1em;
+    margin: 1em;
+    padding: 1em 2em;
     border: none;
     font-family: inherit;
     color: white;
     cursor: pointer;
+    font-size: 1em;
 }
 
 .btn:hover{
@@ -272,9 +273,17 @@ input{
     border:3px solid #96CEF2;
     margin: 0em 1em 2em 3em;
 }
+
+.usuarios{
+    margin-left: 10vw;
+    margin-top: 3em;
+}
+
 .red{
     padding-left: 8vw;
+    display: inline;
 }
+
 
 
 
